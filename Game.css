@@ -1,0 +1,24 @@
+body{
+    background: linear-gradient(to right, #333333, #dd1818);
+    color: gold;
+    font-family: cursive;
+}
+
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: gold;  }
+    25%{    color: gold; }
+    50%{    color: gold ;}
+    75%{    color:transparent;  }
+    100%{   color: gold ;   }
+}
+.gamebox
+{
+    text-align: center;
+    border: 20px solid gold;
+    padding: 50px;
+    border-radius: 20px;
+    margin: 20px;
+}
